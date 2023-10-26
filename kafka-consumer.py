@@ -16,7 +16,3 @@ if __name__ == "__main__":
         veri = json.loads(msg.value)
         print("Data: {}".format(veri))
         print("{} ismi {} karakterden oluşuyor.".format(veri['name'], len(veri['name'])))
-
-# name
-# address
-# create_at
