@@ -19,6 +19,3 @@ if __name__ == "__main__":
         print(user)
         producer.send("test", user)
         time.sleep(5)
-
-
-
